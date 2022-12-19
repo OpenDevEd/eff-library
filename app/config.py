@@ -238,11 +238,21 @@ class Config():
 
     KERKO_COMPOSER.add_facet(
         CollectionFacetSpec(
-            key='facet_approach_pedagogy',
-            filter_key='approach_pedagogy',
-            title=_('Approach & pedagogy'),
+            key='facet_learning_approach',
+            filter_key='learning_approach',
+            title=_('Learning Approach'),
             weight=100,
             collection_key='PHCF769D',
+        )
+    )
+
+    KERKO_COMPOSER.add_facet(
+        CollectionFacetSpec(
+            key='facet_teacher_pedagogy',
+            filter_key='teacher_pedagogy',
+            title=_('Teacher Pedagogy'),
+            weight=110,
+            collection_key='TPADRUD7',
         )
     )
 
@@ -251,7 +261,7 @@ class Config():
             key='facet_research_methods',
             filter_key='research_methods',
             title=_('Research methods'),
-            weight=110,
+            weight=120,
             collection_key='TMBGUV3T',
         )
     )
@@ -261,7 +271,7 @@ class Config():
             key='facet_effect_size',
             filter_key='effect_size',
             title=_('Effect size/ heterogeneity'),
-            weight=120,
+            weight=130,
             collection_key='H8KRJNSQ',
         )
     )
@@ -271,7 +281,7 @@ class Config():
             key='facet_hic_lmic',
             filter_key='hic_lmic',
             title=_('HIC/LMIC'),
-            weight=130,
+            weight=140,
             collection_key='6MMPBGS9',
         )
     )
@@ -281,7 +291,7 @@ class Config():
             key='facet_quality_of_research',
             filter_key='quality_of_research',
             title=_('Quality of research'),
-            weight=140,
+            weight=150,
             collection_key='4U3VJWPN',
         )
     )
@@ -291,7 +301,7 @@ class Config():
             key='facet_geography_specific',
             filter_key='geography_specific',
             title=_('Geography if specific'),
-            weight=150,
+            weight=160,
             collection_key='R4EJQDKR',
         )
     )
