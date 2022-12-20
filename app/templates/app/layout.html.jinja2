@@ -50,7 +50,29 @@
     </nav>
 {% endblock navbar %}
 
-{% block footer_attributes %}{# Deliberately empty! #}{% endblock %}
+{% block footer %}
+<div class="container text-center">
+    <div class="row pt-2 pb-3">
+        <div class="col-lg-12">
+            <div>
+                <p class="brand-name" style="font-size: 1.35rem; font-weight:bold">Developed in partnership</p>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <a href="https://opendeved.net" style="text-decoration:none;" target="_blank">
+                <img src="{{ url_for('static', filename='dist/images/opendeved.png') }}" class="mr-3" style="height: 60px" alt="Open Development & Development">
+            </a>
+                <span>&</span>
+            <a href="https://educationendowmentfoundation.org.uk/" style="text-decoration:none;" target="_blank">
+                <img src="{{ url_for('static', filename='dist/images/eef.svg') }}" class="ml-3" style="height: 60px" alt="EEF">
+            </a>
+        </div>
+    </div>
+    <div class="text-center pt-5 pb-3">
+        Powered by <a href="https://zotero.org">Zotero</a> and <a href="https://github.com/whiskyechobravo/kerko">Kerko</a>.
+    </div>
+</div>
+{% endblock %}
 
 {% block body_scripts %}
     {%- assets "common_js" %}
