@@ -1,7 +1,7 @@
 {
   "name": "opendeved-docs",
   "version": "1.0.0",
-  "description": "Education Endowment Foundation",
+  "description": "Technology in Education",
   "main": "",
   "scripts": {
     "postinstall": "node ./node_modules/frontend-dependencies/index.js",

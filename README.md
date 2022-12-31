@@ -1,4 +1,4 @@
-# Education Endowment Foundation application
+# Technology in Education application
 
 This application uses [Kerko] to provide a user-friendly search and browsing
 web interface for a bibliography managed with the [Zotero] reference manager.

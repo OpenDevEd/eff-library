@@ -37,8 +37,8 @@ class Config():
     KERKO_WHOOSH_LANGUAGE = 'en'
     KERKO_ZOTERO_LOCALE = 'en-GB'
 
-    HOME_URL = 'https://eef.eved.io'
-    HOME_TITLE = _("Education Endowment Foundation")
+    HOME_URL = 'https://tech.eved.io'
+    HOME_TITLE = _("Technology in Education")
     # HOME_SUBTITLE = _("...")
 
     NAV_TITLE = _("Library")
